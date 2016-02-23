@@ -1,0 +1,68 @@
+body {
+	margin: 0 auto;
+	width:500px;
+}
+
+#topbar {
+	height:20px;
+}
+
+#top {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	color:black;
+	font-size: 20px;
+}
+
+#turn {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#board {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.square {
+	border:1px solid green;
+	height:150px;
+	width:150px;
+  	text-align:center;
+  	font-size:100px;
+  	line-height:150px;
+  	padding:0;
+  	color:white;
+}
+
+#button1 {
+	width:400px;
+	height:50px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.playerX {
+	background-color: red;
+}
+
+.playerO {
+	background-color: blue;
+}
+
+
+@ media all and (max-width:500px) {
+
+body {
+	width:400px;
+}
+.square {
+	height:100px;
+	width:100px;
+}
+
+}
