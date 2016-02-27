@@ -7,6 +7,10 @@ var turns = 0;
 function ready(){
   console.log('ready');
   console.log($('.square').length + " elements found");
+  
+  var cw = $('.square').width();
+  $('.square').css({'height':cw+'px'});
+
   $('#button1').on('click',resetGame);
   $('.square').on('click',playTurn);
 

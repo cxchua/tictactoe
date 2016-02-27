@@ -1,6 +1,6 @@
 body {
 	margin: 0 auto;
-	max-width:500px;
+	width:500px;
 }
 
 #topbar {
@@ -55,15 +55,14 @@ body {
 }
 
 
+@ media all and (max-width:500px) {
 
-@media only screen and (max-width: 400px) {
-  /* style */
-	body {
-	width:100%;
-	}
+body {
+	width:400px;
+}
+.square {
+	height:100px;
+	width:100px;
+}
 
-	.square {
-		width:33.33%;
-		height: auto;
-	}
 }
